@@ -1,3 +1,22 @@
 # Why R and RStudio? {#intro}
 
 Chapter justifying the use of R and RStudio
+
+
+## Why R and Not Another Statistical Program?
+
+
+### Statistical Programs versus Statistical Programming Language
+
+* Statistical Programs
+    + fixed menus
+    + limited procedures (at least in the menus)
+    + leads to compartmentalizing models (e.g. ANOVA, regression, GLM)
+    
+* Statistical Programming Languages (SPLs)
+    + Turing complete: if you can create an algorithm you can program it
+    + Very flexible
+    + Integration of models: One model to rule them all!
+
+
+R is a statistical programming language, which means it is a programming language designed specifically to do statistics.

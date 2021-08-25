@@ -2,6 +2,27 @@
 
 Installing software.
 
+## Objectives
+The goal of this chapter is to get  you up and running with the R statistical programming language and the RStudio integrated development environment. 
+
+If you are reading this because you are taking one of my courses, you must decide how you want to use R and RStudio for the course. 
+You have two basic options:
+
+1. you can install them on your own computer, or
+2. you can use Auburn Universities education virtual lab (VLab), online. 
+
+If you have a computer that you will be using consistently for this course, I recommend installing R and RStudio on that computer.
+Both are free and will be much easier to use if you install them directly on your computer.
+If you have decided to install the software on your computer you can skip to the following video.
+Note, that you must be a student within the university, and have DUO setup to use VLab.
+If you think you want to use the virtual lab, watch this video:
+
+[Using VLab to acces R/RStudio](https://nv.instructuremedia.com/fetch/QkFoYkIxc0hhUVNIRGFrSE1Hd3JCeWhUREdFPS0tZjk4ODFlYWEyZWFiNWQwYWYyZDk0YTZjMjljZTJlMjBkNmIwMzE5Yw.mp4)
+
+
+
 ## Installing R
+
+
 
 ## Installing RStudio
