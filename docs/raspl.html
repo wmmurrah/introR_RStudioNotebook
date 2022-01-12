@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 4 R As a Statistical Programming Language | Introduction to R and RStudio for Statistics Courses</title>
   <meta name="description" content="This notebook is a collection of information on how to use R with RStudio. It describes how to install both programs, and how to use them for introductory statistics courses." />
-  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 4 R As a Statistical Programming Language | Introduction to R and RStudio for Statistics Courses" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="William Murrah" />
 
 
-<meta name="date" content="2021-08-25" />
+<meta name="date" content="2022-01-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +33,9 @@
   
 <link rel="prev" href="tour.html"/>
 <link rel="next" href="files-directories-and-projects.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -42,7 +43,6 @@
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
-
 
 
 
@@ -212,7 +212,7 @@ This explanation will be a gross oversimplification of R, but it should be a goo
 <h2><span class="header-section-number">4.1</span> Elements of Statistical Programming</h2>
 <p>An object is a thing that has one or more <em>states</em>, and one or more <em>behaviors.</em>
 Take for example you cell phone.
-It have many states, such as on or off, and many behaviors, such as making phone calls, sending texts, or surfing the web.
+It has many states, such as on or off, and many behaviors, such as making phone calls, sending texts, or surfing the web.
 <strong>Everything in R is an object</strong>.
 Objects in R are very similar to objects like your cell phone, in that they have states and behaviors.
 Our goal is to learn how to use these objects to help us do science.</p>
@@ -469,7 +469,6 @@ rbind()</code></pre>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -510,7 +509,7 @@ gitbook.start({
 },
 "download": ["Introduction to R and RStudio.pdf", "Introduction to R and RStudio.epub"],
 "search": {
-"engine": "lunr",
+"engine": "fuse",
 "options": null
 },
 "toc": {

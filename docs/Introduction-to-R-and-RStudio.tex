@@ -4,10 +4,14 @@
 %
 \documentclass[
 ]{book}
+\title{Introduction to R and RStudio for Statistics Courses}
+\author{William Murrah}
+\date{2022-01-12}
+
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{ifxetex,ifluatex}
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage{iftex}
+\ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
@@ -109,15 +113,11 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
 \usepackage{booktabs}
-\ifluatex
+\ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
 \usepackage[]{natbib}
 \bibliographystyle{plainnat}
-
-\title{Introduction to R and RStudio for Statistics Courses}
-\author{William Murrah}
-\date{2021-08-25}
 
 \begin{document}
 \maketitle
@@ -222,7 +222,7 @@ This explanation will be a gross oversimplification of R, but it should be a goo
 
 An object is a thing that has one or more \emph{states}, and one or more \emph{behaviors.}
 Take for example you cell phone.
-It have many states, such as on or off, and many behaviors, such as making phone calls, sending texts, or surfing the web.
+It has many states, such as on or off, and many behaviors, such as making phone calls, sending texts, or surfing the web.
 \textbf{Everything in R is an object}.
 Objects in R are very similar to objects like your cell phone, in that they have states and behaviors.
 Our goal is to learn how to use these objects to help us do science.
