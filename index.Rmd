@@ -14,3 +14,6 @@ github-repo: rstudio/bookdown-demo
 ---
 
 # Preface{-}
+
+This notebook exists to help people get started using R and RStudio for data analysis and statistics.
+It is a work-in-progress, but should contain instructions, examples, and links to videos useful to those interested in using the R programming language.
