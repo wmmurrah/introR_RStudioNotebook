@@ -1,6 +1,6 @@
-# Installing R and RStudio {#install}
-
-Installing software.
+---
+title: "Installing R and RStudio"
+---
 
 ## Objectives
 The goal of this chapter is to get  you up and running with the R statistical programming language and the RStudio integrated development environment. 

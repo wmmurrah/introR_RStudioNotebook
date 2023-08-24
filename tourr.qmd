@@ -1,4 +1,6 @@
-# A Tour of R and RStudio {#tour}
+---
+title: "A Tour of R and RStudio"
+---
 
 Learn the basics of using R and RStudio
 

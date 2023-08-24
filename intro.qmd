@@ -1,4 +1,7 @@
-# Why R and RStudio? {#intro}
+---
+title: "Why R and RStudio?"
+---
+
 
 Chapter justifying the use of R and RStudio
 

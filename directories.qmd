@@ -1,4 +1,6 @@
-# Files, Directories, and Projects
+---
+title: "Files, Directories, and Projects"
+---
 
 
 [File Navigation in RStudio](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=48773598-f6ba-4771-8515-ad880135ee36)

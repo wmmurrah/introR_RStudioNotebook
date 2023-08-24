@@ -1,4 +1,6 @@
-# R As a Statistical Programming Language {#raspl}
+---
+title: "R As a Statistical Programming Language"
+---
 
 This chapter describes R as a statistical programming language to give you some basic concepts to understand how R works.
 Such concepts will hopefully help you organize what you are learning about R.
@@ -11,8 +13,8 @@ library(knitr)
 opts_chunk$set(echo=TRUE, comment=NULL)
 ```
 
-
 ## Elements of Statistical Programming
+
 
 An object is a thing that has one or more *states*, and one or more *behaviors.*
 Take for example you cell phone. 
